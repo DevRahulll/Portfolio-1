@@ -266,6 +266,11 @@ section {
   margin-top: 2rem;
 }
 
+.education{
+  margin-left: 8rem;
+  text-align: left;
+}
+
 .about-details-container {
   justify-content: center;
   flex-direction: column;
@@ -306,23 +311,23 @@ section {
   width: 400px;
   margin: auto 0;
 }
-/* Experience Section */
-#experience{
+/* skills Section */
+#skills{
     position: relative;
 }
-.experience-sub-title{
+.skills-sub-title{
     color: rgb(85,85,85);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
 }
-.experience-sub-title{
+.skills-sub-title{
     color: rgb(85,85,85);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
 }
-.experience-details-container{
+.skills-details-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -440,8 +445,8 @@ footer p{
     #hamburger-nav {
       display: flex;
     }
-    #experience,
-    .experience-details-container {
+    #skills,
+    .skills-details-container {
       margin-top: 2rem;
     }
     #profile,
@@ -496,7 +501,7 @@ footer p{
     .nav-links li a {
       font-size: 1rem;
     }
-    .experience-sub-title {
+    .skills-sub-title {
       font-size: 1.25rem;
     }
     .logo {
